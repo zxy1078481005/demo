@@ -1,6 +1,6 @@
 # 仿cnode社区
 
-## 预览地址：https://zxy1078481005.github.io/demo/conde/dist/index.html#/
+## [预览地址]（https://zxy1078481005.github.io/demo/conde/dist/index.html#/）
 
 ``` bash
 # install dependencies
