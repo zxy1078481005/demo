@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2020-08-12 15:58:03
+ * @LastEditTime: 2020-08-12 18:06:20
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: \conde\config\index.js
+ */
 'use strict'
 // Template version: 1.3.1
 // see http://vuejs-templates.github.io/webpack for documentation.
@@ -43,7 +51,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/',
+    assetsPublicPath: './',
 
     /**
      * Source Maps
