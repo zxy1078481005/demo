@@ -1,8 +1,6 @@
-# conde
+# 仿cnode社区
 
-> A Vue.js project
-
-## Build Setup
+## 预览地址：https://zxy1078481005.github.io/demo/conde/dist/index.html#/
 
 ``` bash
 # install dependencies
