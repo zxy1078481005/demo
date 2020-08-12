@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2020-08-12 15:02:44
+ * @LastEditTime: 2020-08-12 16:17:45
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: \musicPlayer\js\index.js
+ */
 var musicList = []
 var currentIndex = 0
 var clock
@@ -64,7 +72,7 @@ $('.musicbox .bar').onclick = function(e){
 
 function getMusicList(callback){
     var xhr = new XMLHttpRequest()
-    xhr.open('GET', '/music.json', true)
+    xhr.open('GET', './music.json', true)
     xhr.onload = function(){
         if((xhr.status >= 200 && xhr.status < 300) || xhr.status === 304){
             callback(JSON.parse(this.responseText)) 
